@@ -1,0 +1,168 @@
+
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'poppins', sans-serif
+}
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+}
+ 
+/* Header */
+.header .header-text p {
+    background-color: #ffd05a;
+    font-size: 15px;
+    font-weight: 700;
+    word-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+.header-text a {
+    opacity: 1;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.navbar img {
+    margin-bottom: -9px;
+    border-radius: 2rem;
+}
+
+.navbar h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 9px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(21, 16, 16);
+    opacity: 0.3;
+    font-weight: 600;
+}
+
+ul .bold-text {
+    font-weight: 700;
+    opacity: 1;
+}
+
+ul {
+    margin-left: 20rem;
+    margin-top: 9px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+button{
+    display: inline-block;
+}
+
+.btn{
+    opacity: 1;
+}
+
+.secondary-btn {
+    font-weight: 700;
+    border: .5px solid #d3d3d3;
+    border-radius: 2rem;
+    padding: 10px 40px
+}
+
+.secondary-btn:hover {
+    color: #ffffff;
+    background-color: rgb(25, 19, 19);
+}
+
+.primary-btn {
+    color: #ffffff;
+    border: none;
+    background-color: #0166ff;
+    font-weight: 400;
+    border-radius: 2rem;
+    padding: 10px 40px
+}
+
+.primary-btn:hover {
+    background-color: #256bd3;
+}
+
+/* Hero-section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+/* hero-right */
+.hero-right img {
+    width: 650px;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+/* hero-left */
+.hero-left .orange-text {
+    color: #eeb72a;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.hero-left h1 {
+    font-size: 3.8rem;
+    font-weight: 600;
+    margin-top: -29px;
+    line-height: 5rem;
+}
+
+.hero-left .small-text {
+    font-weight: 300;
+}
+
+.hero-left .line-art {
+    position: absolute;
+    left: 27rem;
+    z-index: -1;
+    width: 14rem;
+}
+
+.hero-left p {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #a19898;
+    line-height: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.hero-left a {
+    font-weight: 600;
+    opacity: 1;
+    margin-left: 7px;
+    background-color: #facf61;
+    border-radius: 2rem;
+    padding: 13px 35px;
+}
+
+.hero-left a:hover {
+    background-color: #f8b91a;
+}
+
+
+
+
+
+
